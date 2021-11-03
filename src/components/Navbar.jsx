@@ -71,7 +71,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>J&D Artwork</Logo>
+          <Logo>ALICIAS ILLUSTRATIONER</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
