@@ -27,18 +27,26 @@ const Info = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
 `;
 
 const Title = styled.h1`
   color: white;
   margin-bottom: 20px;
+  width: inherit;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); ;
 `;
 
 const Button = styled.button`
   border: none;
   padding: 10px;
   background-color: white;
-  color: gray;
+  color: #747474;
   cursor: pointer;
   font-weight: 600;
 `;

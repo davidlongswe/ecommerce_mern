@@ -10,6 +10,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Login from "./pages/login/Login";
+import OrderList from "./pages/orderList/OrderList";
 
 function App() {
   const admin = JSON.parse(
@@ -41,6 +42,9 @@ function App() {
               </Route>
               <Route path="/products">
                 <ProductList />
+              </Route>
+              <Route path="/orders">
+                <OrderList />
               </Route>
               <Route path="/product/:productId">
                 <Product />
